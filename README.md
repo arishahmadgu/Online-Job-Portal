@@ -33,21 +33,6 @@ Common:
 
 ---
 
- 📂 Project Structure
 
-
-OnlineJobPortal/
-│
-├── index.html       # Home page
-├── login.php        # Login
-├── register.php     # Registration
-├── job-listings.php # Browse jobs
-├── post-job.php     # Post jobs (Employer)
-├── apply-job.php    # Apply for jobs
-├── css/             # Styles
-├── js/              # Scripts
-├── images/          # Images
-└── database/        # SQL & DB connection
-```
 
 
