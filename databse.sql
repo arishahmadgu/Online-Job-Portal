@@ -1,7 +1,7 @@
 CREATE DATABASE IF NOT EXISTS job_portal;
 USE job_portal;
 
-// Users Table
+-- Users Table
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100),
@@ -10,7 +10,7 @@ CREATE TABLE users (
     role ENUM('jobseeker','employer')
 );
 
-// Jobs Table
+-- Jobs Table
 CREATE TABLE jobs (
     id INT AUTO_INCREMENT PRIMARY KEY,
     employer_id INT,
@@ -21,7 +21,7 @@ CREATE TABLE jobs (
     posted_on TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-// Applications Table
+-- Applications Table
 CREATE TABLE applications (
     id INT AUTO_INCREMENT PRIMARY KEY,
     job_id INT,
