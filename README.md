@@ -84,8 +84,8 @@ OnlineJobPortal/
 ## 📬 Contact
 
 **Developer:** Arish Ahamad
-**Email:** [your-email@example.com](mailto:your-email@example.com)
+**GitHub** [https://github.com/arishahmadgu/Online-Job-Portal]
 
 ---
 
-**Made with ❤️ using HTML, CSS, JavaScript, PHP & MySQL**
+  
