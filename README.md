@@ -46,13 +46,9 @@ Common:
 ├── images/           # Images
 └── database/         # SQL file & database connection
 
-⚡ Installation 
 
-1.Install XAMPP/WAMP and start Apache & MySQL.
-2.Put the project folder in htdocs/.
-3.Create DB job_portal in phpMyAdmin.
-4.Import job_portal.sql.
-5.Set DB details in config.php.
+
+
 
 
 
