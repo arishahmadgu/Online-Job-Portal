@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.navbar {
+    background: #222;
+    padding: 15px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar ul li a:hover {
+    color: #00bcd4;
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.form-box {
+    width: 400px;
+    background: #fff;
+    padding: 25px;
+    margin: 30px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.form-box label {
+    font-weight: bold;
+}
+
+.form-box input, 
+.form-box textarea, 
+.form-box select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-box button {
+    width: 100%;
+    background: #00bcd4;
+    padding: 12px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form-box button:hover {
+    background: #048ea3;
+}
+
+.job-card {
+    background: #fff;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.job-card h3 {
+    margin-bottom: 10px;
+}
+
+.job-card p {
+    margin: 5px 0;
+}
+
+.btn-apply {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #00bcd4;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-apply:hover {
+    background: #048ea3;
+}
