@@ -31,7 +31,21 @@ Common:
 * Backend: PHP
 * Database: MySQL
 
----
+📂 Online Job Portal
+│
+├── index.html        # Home page
+├── login.php         # User login
+├── register.php      # User registration
+│
+├── job-listings.php  # View jobs
+├── post-job.php      # Employers post jobs
+├── apply-job.php     # Apply to a job
+│
+├── css/              # CSS styles
+├── js/               # JavaScript files
+├── images/           # Images
+└── database/         # SQL file & database connection
+
 
 
 
