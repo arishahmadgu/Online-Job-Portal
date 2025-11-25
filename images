@@ -1,0 +1,8 @@
+images/
+│
+├── logo.png              (Website logo)
+├── banner.jpg            (Homepage banner image)
+├── job-default.png       (Default job image/icon)
+├── user.png              (User icon)
+├── company.png           (Company icon)
+└── background.jpg        (Light background for pages)
