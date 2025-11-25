@@ -51,35 +51,3 @@ OnlineJobPortal/
 ```
 
 
-
-⚡ Installation
-
-1. Install XAMPP/WAMP/LAMP and start Apache & MySQL.
-2. Clone this repo into htdocs (or equivalent).
-3. Import job_portal.sql in phpMyAdmin.
-4. Configure database in config.php.
-5. Open http://localhost/OnlineJobPortal in a browser.
-
-🚀 Usage
-
-1. Register as Job Seeker or Employer
-2. Login
-3. Job Seekers: Browse & apply for jobs
-4. Employers: Post jobs & manage applications
-
- ✨ Future Enhancements
-
-* Email notifications for applications
-* Admin panel for user/job management
-* Resume upload & AI job recommendations
-
----
-
- 📬 Contact
-
-Developer: Arish Ahamad
-Email: https://github.com/arishahmadgu/Online-Job-Portal
-
-
-
-
