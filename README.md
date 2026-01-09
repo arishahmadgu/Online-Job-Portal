@@ -101,28 +101,30 @@ MySQL	Persistent data storage
 
 ## 📂 Project Directory Structure
 
+~~~
 online-job-portal/
 │
-├── frontend/ # User Interface
-│ ├── css/ # Styling files
-│ ├── js/ # JavaScript logic
-│ ├── index.html # Landing page
-│ ├── login.html # Login page
-│ ├── register.html # Registration page
-│ ├── jobs.html # Job listings
-│ └── dashboard.html # User dashboard
+├── frontend/                  # User Interface
+│   ├── css/                   # Styling files
+│   ├── js/                    # JavaScript logic
+│   ├── index.html             # Landing page
+│   ├── login.html             # Login page
+│   ├── register.html          # Registration page
+│   ├── jobs.html              # Job listings
+│   └── dashboard.html         # User dashboard
 │
-├── backend/ # Business Logic
-│ ├── controller/ # Handles requests
-│ ├── service/ # Business logic
-│ ├── model/ # Entity classes
-│ ├── dao/ # Database access
-│ └── MainApplication.java
+├── backend/                   # Business Logic
+│   ├── controller/            # Handles requests
+│   ├── service/               # Business logic
+│   ├── model/                 # Entity classes
+│   ├── dao/                   # Database access
+│   └── MainApplication.java
 │
 ├── database/
-│ └── job_portal.sql # Database schema
+│   └── job_portal.sql         # Database schema
 │
 └── README.md
+~~~
 
 **Developer:** Arish Ahamad
 **GitHub** [https://github.com/arishahmadgu/Online-Job-Portal]
