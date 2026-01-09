@@ -56,9 +56,6 @@ Manage job listings
 Monitor platform activity
 
 
-
-S
-
 🔍 Job Search & Filtering
 
 Search jobs by:
@@ -102,9 +99,11 @@ Database
 Technology	Purpose
 MySQL	Persistent data storage
 
-📂 Project Directory Structure 
+📂 Project Directory Structure
+
 online-job-portal/
 │
+
 ├── frontend/              # User Interface
 │   ├── css/               # Styling files
 │   ├── js/                # JavaScript logic
@@ -114,6 +113,7 @@ online-job-portal/
 │   ├── jobs.html          # Job listings
 │   └── dashboard.html     # User dashboard
 │
+
 ├── backend/               # Business Logic
 │   ├── controller/        # Handles requests
 │   ├── service/           # Business logic
@@ -121,14 +121,11 @@ online-job-portal/
 │   ├── dao/               # Database access
 │   └── MainApplication.java
 │
+
 ├── database/
 │   └── job_portal.sql     # Database schema
-│
-├── screenshots/           # UI screenshots
-│
-├── README.md              # Project documentation
-├── .gitignore
-└── LICENSE
+
+
 
 
 
