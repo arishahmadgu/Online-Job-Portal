@@ -82,6 +82,7 @@ Recruiters can view applicant list
 
 🧰 Tech Stack Used
 
+~~~
 Frontend
 
 Technology	Purpose
@@ -100,6 +101,8 @@ Database
 
 Technology	Purpose
 MySQL	Persistent data storage
+
+~~~
 
 ## 📂 Project Directory Structure
 
