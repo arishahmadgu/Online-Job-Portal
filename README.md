@@ -1,87 +1,198 @@
-# Online Job Portal
+🧑‍💼 Online Job Portal – Full Stack Web Application
+📌 Project Overview
 
-**An easy-to-use platform connecting job seekers with employers.**
+The Online Job Portal is a full-stack web application designed to bridge the gap between job seekers and recruiters.
+It provides a centralized platform where:
 
----
+Job seekers can search, view, and apply for jobs
 
-## 🌟 Features
+Recruiters can post and manage job vacancies
 
-**For Job Seekers:**
+Admin can monitor users and job postings
 
-* Register and create a profile
-* Browse & search jobs
-* Apply online
-* Track application status
+This project simulates a real-world recruitment system used by platforms like Naukri, Indeed, and LinkedIn Jobs.
 
-**For Employers:**
+🎯 Objectives of the Project
 
-* Post jobs with details
-* Manage applications
-* View candidates
+To understand end-to-end web application development
 
-**Common:**
+To implement role-based access control
 
-* Secure login & authentication
-* Responsive design (desktop & mobile)
-* Search & filter functionality
+To practice CRUD operations with a database
 
----
+To gain experience with frontend–backend integration
 
-## 🛠 Technologies
+To follow industry-level project structure
 
-* **Frontend:** HTML, CSS, JavaScript
-* **Backend:** PHP
-* **Database:** MySQL
+🏗 System Architecture
+Client (Browser)
+     |
+     |  HTTP Requests
+     ↓
+Frontend (HTML, CSS, JavaScript)
+     |
+     |  API / Servlet Calls
+     ↓
+Backend (Java – Servlet / Spring Boot)
+     |
+     |  JDBC / ORM
+     ↓
+MySQL Database
 
----
+Architecture Explanation:
 
-## **📂 Project Structure**
+Frontend handles user interaction and UI
 
-```
-OnlineJobPortal/
+Backend processes business logic and validations
+
+Database stores users, jobs, applications securely
+
+👥 User Roles & Responsibilities
+1️⃣ Job Seeker
+
+Register & login
+
+Create profile
+
+Search jobs using keywords/location
+
+Apply for jobs
+
+View applied job history
+
+2️⃣ Recruiter
+
+Register & login
+
+Post new job vacancies
+
+Update or delete job posts
+
+View applicants for posted jobs
+
+3️⃣ Admin
+
+View all users and recruiters
+
+Manage job listings
+
+Monitor platform activity
+
+🚀 Features (Detailed Explanation)
+🔐 Authentication & Authorization
+
+Secure login system
+
+Separate access for Job Seeker, Recruiter, and Admin
+
+Session management to prevent unauthorized access
+
+🔍 Job Search & Filtering
+
+Search jobs by:
+
+Job title
+
+Skills
+
+Location
+
+Real-time job listing display
+
+📝 Job Posting
+
+Recruiters can:
+
+Add job title, description, salary, experience
+
+Edit or remove job postings
+
+Jobs stored persistently in database
+
+📄 Job Application Module
+
+Job seekers can apply with one click
+
+Applications linked to both user and job
+
+Recruiters can view applicant list
+
+📊 Dashboard
+
+User-specific dashboards
+
+Displays relevant data based on role
+
+🧰 Tech Stack Used
+Frontend
+Technology	Purpose
+HTML	Structure of web pages
+CSS	Styling & layout
+JavaScript	Client-side validation & interactivity
+Backend
+Technology	Purpose
+Java	Core backend logic
+Servlets / Spring Boot	Request handling
+JDBC / Hibernate	Database interaction
+Database
+Technology	Purpose
+MySQL	Persistent data storage
+📂 Project Directory Structure 
+online-job-portal/
 │
-├── index.html       # Home page
-├── login.php        # Login
-├── register.php     # Registration
-├── job-listings.php # Browse jobs
-├── post-job.php     # Post jobs (Employer)
-├── apply-job.php    # Apply for jobs
-├── css/             # Styles
-├── js/              # Scripts
-├── images/          # Images
-└── database/        # SQL & DB connection
-```
+├── frontend/              # User Interface
+│   ├── css/               # Styling files
+│   ├── js/                # JavaScript logic
+│   ├── index.html         # Landing page
+│   ├── login.html         # Login page
+│   ├── register.html      # Registration page
+│   ├── jobs.html          # Job listings
+│   └── dashboard.html     # User dashboard
+│
+├── backend/               # Business Logic
+│   ├── controller/        # Handles requests
+│   ├── service/           # Business logic
+│   ├── model/             # Entity classes
+│   ├── dao/               # Database access
+│   └── MainApplication.java
+│
+├── database/
+│   └── job_portal.sql     # Database schema
+│
+├── screenshots/           # UI screenshots
+│
+├── README.md              # Project documentation
+├── .gitignore
+└── LICENSE
 
----
+🗄 Database Design (Overview)
+Tables Used:
 
-## ⚡ Installation
+users – stores job seekers and recruiters
 
-1. Install **XAMPP/WAMP/LAMP** and start Apache & MySQL.
-2. Clone this repo into `htdocs` (or equivalent).
-3. Import `job_portal.sql` in **phpMyAdmin**.
-4. Configure database in `config.php`.
-5. Open `http://localhost/OnlineJobPortal` in a browser.
+jobs – stores job postings
 
----
+applications – maps users to applied jobs
 
-## 🚀 Usage
+admin – admin credentials
 
-1. Register as **Job Seeker** or **Employer**
-2. Login
-3. **Job Seekers:** Browse & apply for jobs
-4. **Employers:** Post jobs & manage applications
+Key Concepts Used:
 
----
+Primary Keys
 
-## ✨ Future Enhancements
+Foreign Keys
 
-* Email notifications for applications
-* Admin panel for user/job management
-* Resume upload & AI job recommendations
+One-to-Many relationships
 
----
+Data normalization
 
-## 📬 Contact
+
+
+
+
+
+
+
 
 **Developer:** Arish Ahamad
 **GitHub** [https://github.com/arishahmadgu/Online-Job-Portal]
