@@ -21,6 +21,7 @@ To gain experience with frontend–backend integration
 To follow industry-level project structure
 
 🏗 System Architecture
+~~~
 Client (Browser)
      |
      |  HTTP Requests
@@ -34,6 +35,7 @@ Backend (Java – Servlet / Spring Boot)
      |  JDBC / ORM
      ↓
 MySQL Database
+~~~
 
 1️⃣ Job Seeker
 
