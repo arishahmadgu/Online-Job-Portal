@@ -4,13 +4,13 @@
 The Online Job Portal is a full-stack web application designed to bridge the gap between job seekers and recruiters.
 It provides a centralized platform where:
 
-*Job seekers can search, view, and apply for jobs
+Job seekers can search, view, and apply for jobs
 
-*Recruiters can post and manage job vacancies
+Recruiters can post and manage job vacancies
 
-*Admin can monitor users and job postings
+Admin can monitor users and job postings
 
-*This project simulates a real-world recruitment system used by platforms like Naukri, Indeed, and LinkedIn Jobs.
+This project simulates a real-world recruitment system used by platforms like Naukri, Indeed, and LinkedIn Jobs.
 
 🎯 Objectives of the Project
 
