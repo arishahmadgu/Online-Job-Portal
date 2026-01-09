@@ -113,12 +113,12 @@ online-job-portal/
 │   └── dashboard.html     # User dashboard
 │
 
-├── backend/               # Business Logic
-│   ├── controller/        # Handles requests
-│   ├── service/           # Business logic
-│   ├── model/             # Entity classes
-│   ├── dao/               # Database access
-│   └── MainApplication.java
+Backend
+1. Controller
+2. Service
+3. Model
+4. Dao
+5. Mainapplication.java
 
 │
 ├── database/
