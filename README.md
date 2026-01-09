@@ -3,6 +3,7 @@
 
 The Online Job Portal is a full-stack web application designed to bridge the gap between job seekers and recruiters.
 It provides a centralized platform where:
+
 *Job seekers can search, view, and apply for jobs
 *Recruiters can post and manage job vacancies
 *Admin can monitor users and job postings
@@ -11,13 +12,9 @@ It provides a centralized platform where:
 🎯 Objectives of the Project
 
 To understand end-to-end web application development
-
 To implement role-based access control
-
 To practice CRUD operations with a database
-
 To gain experience with frontend–backend integration
-
 To follow industry-level project structure
 
 🏗 System Architecture
