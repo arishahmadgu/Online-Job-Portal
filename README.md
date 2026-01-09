@@ -104,19 +104,12 @@ MySQL	Persistent data storage
 online-job-portal/
 │
 ├── frontend/              # User Interface
-
 │   ├── css/               # Styling files
-
 │   ├── js/                # JavaScript logic
-
 │   ├── index.html         # Landing page
-
 │   ├── login.html         # Login page
-
 │   ├── register.html      # Registration page
-
 │   ├── jobs.html          # Job listings
-
 │   └── dashboard.html     # User dashboard
 │
 
@@ -126,25 +119,11 @@ online-job-portal/
 │   ├── model/             # Entity classes
 │   ├── dao/               # Database access
 │   └── MainApplication.java
+
 │
 ├── database/
 │   └── job_portal.sql     # Database schema
 │
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 **Developer:** Arish Ahamad
 **GitHub** [https://github.com/arishahmadgu/Online-Job-Portal]
